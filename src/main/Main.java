@@ -7,7 +7,7 @@ import solver.Solver;
 public class Main {
 
 	/**
-	 *メインメソッド
+	 *メインメソッドを定義
 	 **/
 
 
