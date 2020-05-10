@@ -6,6 +6,11 @@ import solver.Solver;
 
 public class Main {
 
+	/**
+	 *メインメソッド
+	 **/
+
+
 	public static void main(String[] args) {
 		//パラメータ設定
 		double[] t_array = new double[] {
