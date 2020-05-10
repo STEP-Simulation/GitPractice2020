@@ -17,14 +17,14 @@ public class Solver {
 	/**
 	 * 運動方程式を解くSolverオブジェクトを生成します。
 	 * @param t0 初期時刻[s]
-	 * @param tn 終了時刻[s]
-	 * @param mass 質量[kg]
 	 * @param x0 初期位置[m]
 	 * @param v0 初期速度[m/s]
+ 	 * @param mass 質量[kg]
 	 * @param F 力[N](時間依存)
 	 * @param dt 時間刻み幅[s]
+	 * @param n ステップ数(初期段階を0とする)
 	 * */
-	public Solver(double t0, double tn, double mass, double x0, double v0, Force F, double dt) {
+	public Solver(double t0, double x0, double v0, double mass, Force F, double dt, int n) {
 
 	}
 

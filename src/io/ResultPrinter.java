@@ -11,9 +11,8 @@ public class ResultPrinter {
 	 * @param t 各ステップの時刻の配列
 	 * @param x 各ステップの時刻の配列
 	 * @param v 各ステップの時刻の配列
-	 * @param filepath 出力先へのパス
 	 * */
-	public void printResult(double[] t, double[] x, double[] v, String filepath) {
+	public void printResult(double[] t, double[] x, double[] v) {
 
 	}
 }
