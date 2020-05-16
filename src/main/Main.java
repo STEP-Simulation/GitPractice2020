@@ -4,7 +4,16 @@ import io.ResultPrinter;
 import solver.Force;
 import solver.Solver;
 
+/*20200510
+ * KeiAizawa Edited
+ */
+
 public class Main {
+
+	/**
+	 *メインメソッドを定義
+	 **/
+
 
 	public static void main(String[] args) {
 		//パラメータ設定
