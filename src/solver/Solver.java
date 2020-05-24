@@ -75,7 +75,7 @@ public class Solver {
 	 * @return 各ステップにおける時刻の配列
 	 * */
 	public double[] give_t_array() {
-
+		return this.t;
 	}
 
 	/**
@@ -83,7 +83,7 @@ public class Solver {
 	 * @return 各ステップにおける位置の配列
 	 * */
 	public double[] give_x_array() {
-
+		return this.x;
 	}
 
 	/**
@@ -91,7 +91,7 @@ public class Solver {
 	 * @return 各ステップにおける速度の配列
 	 * */
 	public double[] give_v_array() {
-
+		return this.v;
 	}
 
 
