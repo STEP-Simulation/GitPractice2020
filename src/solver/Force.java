@@ -35,19 +35,17 @@ public class Force {
 			for(int i = 0; i < n; i++) {
 				if(t < t_array[i]) {
 					f = F_array[i-1] + (F_array[i] - F_array[i-1]) * (t - t_array[i-1]) / ((t_array[i]) - t_array[i-1]);
-					return f;
+					break;
 				}
 			}
 			if(t >= t_array[n-1]) {
 				f = F_array[n-1];
-				return f;
 			}
 		}
 		else {
 			f = 0;
-			return f;
 		}
-
+		return f;
 	}
 
 }
