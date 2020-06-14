@@ -18,7 +18,12 @@ public class ResultPrinter {
 		System.out.println("時刻t,位置x,速度v");
 
 		//iがt.lengthの範囲内にある限りは値を表示し続ける
-	    for (int i = 0; i <= t.length; i++){
+		/**
+		 * i<=t.lengthとすると最後に中身の無い配列を処理することになり、エラーが出るので、
+		 * 等号条件を変えるかt[i-1]、int i=1として対応する
+		 */
+
+	    for (int i = 0; i < t.length; i++){
 
 	    	System.out.println(t[i]+","+x[i]+","+v[i]);
 	    }
